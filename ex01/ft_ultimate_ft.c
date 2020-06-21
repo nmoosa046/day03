@@ -6,7 +6,7 @@
 /*   By: nmoosa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 11:13:10 by nmoosa            #+#    #+#             */
-/*   Updated: 2020/06/21 11:20:03 by nmoosa           ###   ########.fr       */
+/*   Updated: 2020/06/21 13:36:58 by nmoosa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ void	ft_ultimate_ft(int *********nbr){
 
 		a = 42;
 		nbr1 = &a;
-		nbr2 = nbr1;
+		nbr2 = &nbr1;
 		nbr3 = &nbr2;
 		nbr4 = &nbr3;
 		nbr5 = &nbr4;
@@ -35,3 +35,6 @@ void	ft_ultimate_ft(int *********nbr){
 		nbr8 = &nbr7;
 		nbr = &nbr8;
 }
+
+
+
