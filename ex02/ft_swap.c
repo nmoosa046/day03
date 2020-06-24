@@ -6,18 +6,17 @@
 /*   By: nmoosa <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 11:21:11 by nmoosa            #+#    #+#             */
-/*   Updated: 2020/06/23 14:19:33 by nmoosa           ###   ########.fr       */
+/*   Updated: 2020/06/24 16:04:26 by nmoosa           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_swap(int *a, int *b);
 
 void	ft_swap(int *a, int *b){
-	int *swp;
-	*a = 42;
-	*b = 49;
+	int temp;
 
-	*a = &swp;
-	*swp = &b;
+	temp = *a;
+	*a = *b;
+	*b = temp;
 
 }
